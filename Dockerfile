@@ -6,7 +6,7 @@ LABEL description="A simple image running Nginx on Debain 10"
 
 # Run commands
 RUN apt-get update && \
-    apt-get install -y nginx \
+    apt-get install -y nginx 
     
 # Expose port 80    
 EXPOSE 80/tcp
